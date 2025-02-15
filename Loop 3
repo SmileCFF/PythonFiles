@@ -1,0 +1,6 @@
+num = int(input("Please input a number: "))
+
+for i in range(num,0,-1):
+    print (i)
+    if i == 1:
+        print("Blast Off!")
