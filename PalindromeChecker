@@ -1,0 +1,9 @@
+def palindromeCheck(pali):
+
+    for i in range(0,len(pali)-1):
+        if pali[i] != pali[len(pali)-1-i]:
+            return False
+
+    return True
+
+print(palindromeCheck("racecar"))
