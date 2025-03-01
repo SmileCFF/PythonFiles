@@ -1,0 +1,18 @@
+import random
+
+def guess_number():
+    num = random.randint(0,20)
+    guess = input("Please enter your guess:")
+    while int(guess) != num:
+        if int(guess) > num:
+            print("Too high")
+        elif int(guess) < num:
+            print("Too low")
+        elif int(guess) == num:
+            break
+        guess = input("Please enter your guess:")
+
+    if int(guess) == num:
+        print("Great Job")
+
+guess_number()
