@@ -1,0 +1,27 @@
+def add(a,b):
+    print(int(a)+int(b))
+
+def subtract(a,b):
+    if int(a)>int(b):
+        print(int(a)-int(b))
+    else:
+        print(int(b)-int(a))
+
+def multiply(a,b):
+    print(int(a)*int(b))
+
+def divide(a,b):
+    print(int(a)/int(b))
+    print(int(b)/int(a))
+
+operationNum = input("Choose the operation number: ")
+a = input("Enter your first number: ")
+b = input("Enter your second number: ")
+if operationNum == "1":
+    add(a,b)
+elif operationNum == "2":
+    subtract(a,b)
+elif operationNum == "3":
+    multiply(a,b)
+elif operationNum == "4":
+    divide(a,b)
