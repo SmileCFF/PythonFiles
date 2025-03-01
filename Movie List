@@ -1,0 +1,13 @@
+movie1 = input("Please enter your favorite movie: ")
+movie2 = input("Please enter your second favorite movie: ")
+movie3 = input("Please enter your third favorite movie: ")
+movie4 = input("Please enter your fourth favorite movie: ")
+movie5 = input("Please enter your fifth favorite movie: ")
+
+movieList = []
+movieList.append(movie1)
+movieList.append(movie2)
+movieList.append(movie3)
+movieList.append(movie4)
+movieList.append(movie5)
+print(movieList)
